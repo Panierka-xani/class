@@ -18,6 +18,11 @@ public:
         cout << "Suma: " << a + b << endl;
         cout << "Roznica: " << a - b << endl;
         cout << "Iloczyn: " << a * b << endl;
+
+        if (b != 0)
+            cout << "Iloraz: " << (double)a / b << endl;
+        else
+            cout << "Nie mozna dzielic przez zero." << endl;
     }
 };
 
